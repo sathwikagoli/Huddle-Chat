@@ -1,3 +1,12 @@
+**NAME**:Sathwika Goli
+**UNIVERSITY**:IIT PALAKKAD
+**BRANCH**:Electrical Engineering
+**ROLL NO**:122201005
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
