@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Socket
+
+</body>
+
+
+<script type="module">
+    import { io } from "https://cdn.socket.io/4.7.5/socket.io.esm.min.js";
+
+
+    const socket = io.connect('http://localhost:5000');
+
+    socket.on('statusChange', ({ userId, online }) => {
+        console.log(`User ${userId} is now ${online ? 'online' : 'offline'}`);
+        // Update your UI or handle status changes
+    });
+</script>
+
+</html>
